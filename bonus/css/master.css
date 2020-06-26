@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#array {
+  list-style: none;
+}
+#btn {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+.fizzbuzz {
+  color: green;
+}
+.fizz {
+  color: red;
+}
+.buzz {
+  color: blue;
+}
